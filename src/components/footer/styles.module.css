@@ -1,0 +1,178 @@
+.mainContainerStyle {
+  width: 100%;
+  display: flex;
+  padding: 70px 195px;
+}
+.subContainerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.leftContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 200px;
+  order: 1;
+  /* margin-top: 25px; */
+}
+.leftContainerTitleTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.optionStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.imgContainerStyle {
+  width: 24px;
+  height: 24px;
+}
+.imgStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.optionTextStyle {
+  font-family: "Barlow-Regular";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.middleContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  order: 2;
+}
+.beersImgContainerStyle {
+  width: 496px;
+  height: 158px;
+  object-fit: cover;
+}
+.beersImgStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logoContainerStyle {
+  width: 496px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoTextContainerStyle {
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+}
+.topContentStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contentTextStyle {
+  font-family: "Faltige-Regular";
+  font-style: normal;
+  font-size: 13.6465px;
+  line-height: 112.6%;
+  text-align: right;
+  color: #ffffff;
+}
+.contentTitleStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 78.2038px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+}
+.rightContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  order: 3;
+}
+.rightContainerTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.socilaMediaContainerStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.socilaMediaIconStyle {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 834px) {
+  .mainContainerStyle {
+    padding: 63px 50px 63px 50px;
+  }
+  .subContainerStyle {
+    gap: 38px;
+  }
+  .middleContainerStyle {
+    order: 3;
+  }
+  .rightContainerStyle {
+    order: 2;
+  }
+  .beersImgContainerStyle {
+    width: 348px;
+    height: 110px;
+  }
+  .logoContainerStyle {
+    width: 348px;
+  }
+  .logoTextContainerStyle {
+    width: 222px;
+  }
+  .contentTextStyle {
+    font-size: 9.58039px;
+  }
+  .contentTitleStyle {
+    font-size: 54.9022px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .mainContainerStyle {
+    padding: 0px;
+  }
+  .subContainerStyle {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .leftContainerStyle {
+    order: 2;
+    padding-left: 48px;
+    width: 100%;
+  }
+  .middleContainerStyle {
+    order: 1;
+    align-items: center;
+  }
+  .rightContainerStyle {
+    order: 3;
+    padding-left: 48px;
+  }
+  .beersImgContainerStyle {
+    width: 100%;
+    height: 110px;
+  }
+  .logoContainerStyle {
+    width: 100%;
+  }
+}

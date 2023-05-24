@@ -1,0 +1,118 @@
+.mainContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  justify-content: space-between;
+  width: 100%;
+  animation: animation 1s;
+  opacity: 1;
+}
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.leftContainerStyle {
+  display: flex;
+  flex-direction: column;
+  width: 186px;
+}
+.leftContainerTopStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.topTextStyle {
+  font-family: "Faltige";
+  font-style: normal;
+  font-size: 7.98933px;
+  line-height: 112.6%;
+  color: #ffffff;
+  margin: 0px;
+}
+.leftContainerBottomStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bottomTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 45.7844px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+.rightContainerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 65px;
+}
+.optionsTextStyle {
+  font-family: "Barlow-Bold";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.menuImgContainerStyle {
+  display: none;
+  align-items: center;
+  justify-content: right;
+  width: 25px;
+  height: 25px;
+}
+.menuImgStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 834px) {
+  .mainContainerStyle {
+    gap: 0px;
+    justify-content: space-between;
+  }
+  .rightContainerStyle {
+    display: none;
+  }
+  .menuImgContainerStyle {
+    display: flex;
+  }
+  .leftContainerStyle {
+    width: 107px;
+  }
+  .topTextStyle {
+    font-size: 4.59601px;
+  }
+  .bottomTextStyle {
+    font-size: 26.3383px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .leftContainerStyle {
+    width: 51px;
+  }
+  .topTextStyle {
+    font-size: 2.1935px;
+  }
+  .bottomTextStyle {
+    font-size: 12.5703px;
+  }
+  .menuImgContainerStyle {
+    width: 11.69px;
+    height: 11.69px;
+  }
+}

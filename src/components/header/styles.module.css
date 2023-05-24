@@ -1,0 +1,198 @@
+.mainContainerStyle {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(33, 21, 21, 0.8) 11%,
+      rgba(33, 21, 21, 0) 16%
+    ),
+    linear-gradient(to top, #060606 0%, rgba(33, 21, 21, 0) 33%),
+    url("../../assets/images/mainBg.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  gap: 370.7px;
+  display: flex;
+  flex-direction: column;
+  padding: 27px 35px 85px;
+}
+.mainContainerTopStyle {
+  max-width: 1440px;
+  margin: auto;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  gap: 135.25px;
+  width: 100%;
+}
+
+.middleContainerTextStyle {
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  margin: auto;
+  animation: animation 1s;
+}
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.middleContainerTextSubStyle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3px;
+}
+.middleContainerTopTextStyle {
+  font-family: "Faltige";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.0025px;
+  line-height: 112.6%;
+  color: #ffffff;
+}
+.middleContainerBottomTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 103.167px;
+  line-height: 112.6%;
+  color: #ffffff;
+  margin: 0px;
+}
+.mainContainerBottomStyle {
+  padding: 0px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 54px;
+  animation: animation 1s;
+}
+.eachContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.eachContainerSubStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19.38px;
+}
+.beerImgContainerStyle {
+  width: 80px;
+  height: 80px;
+}
+.beerImgStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.eachBeerTitleTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 32.3055px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+}
+.eachBeerDescTextStyle {
+  font-family: "Barlow-light";
+  font-size: 21.537px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+}
+.deviderStyle {
+  height: 56px;
+  border: 2.1537px solid #ffffff;
+  border-radius: 16px;
+}
+@media screen and (max-width: 834px) {
+  .mainContainerStyle {
+    background: linear-gradient(
+        to bottom,
+        rgba(33, 21, 21, 0.8) 12%,
+        rgba(33, 21, 21, 0) 18%
+      ),
+      linear-gradient(to top, #060606 30%, rgba(33, 21, 21, 0) 60%),
+      url("../../assets/images/mainBg.svg");
+    gap: 194.22px;
+  }
+  .mainContainerTopStyle {
+    margin: 0;
+    gap: 62px;
+  }
+  .middleContainerTopTextStyle {
+    font-size: 14.4141px;
+    margin-left: 0px;
+  }
+  .middleContainerBottomTextStyle {
+    font-size: 82.6029px;
+  }
+  .middleContainerTextStyle {
+    width: 335px;
+  }
+  .beerImgContainerStyle {
+    width: 54px;
+    height: 54px;
+  }
+  .eachBeerTitleTextStyle {
+    font-size: 21.575px;
+  }
+  .eachBeerDescTextStyle {
+    font-size: 14.3833px;
+  }
+  .mainContainerBottomStyle {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .mainContainerStyle {
+    background: linear-gradient(
+        to bottom,
+        rgba(33, 21, 21, 0.8) 12%,
+        rgba(33, 21, 21, 0) 18%
+      ),
+      linear-gradient(to top, #060606 5%, rgba(33, 21, 21, 0) 50%),
+      url("../../assets/images/mainBg.svg");
+    gap: 110.22px;
+    background-position: bottom;
+  }
+  .mainContainerTopStyle {
+    margin: 0;
+    width: 100%;
+    gap: 38px;
+  }
+  .middleContainerTextStyle {
+    width: 226px;
+  }
+  .middleContainerBottomTextStyle {
+    font-size: 55.7037px;
+  }
+  .middleContainerTopTextStyle {
+    font-size: 9.72023px;
+    margin-left: 0px;
+  }
+  .eachBeerDescTextStyle {
+    display: none;
+  }
+  .beerImgContainerStyle {
+    width: 52px;
+    height: 52px;
+  }
+  .eachBeerTitleTextStyle {
+    font-size: 20.704px;
+  }
+  .mainContainerBottomStyle {
+    padding: 0px;
+    justify-content: center;
+    gap: 28px;
+  }
+}

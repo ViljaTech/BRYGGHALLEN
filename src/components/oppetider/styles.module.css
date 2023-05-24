@@ -1,0 +1,36 @@
+.mainContainerStyle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+.subContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.titleTextStyle {
+  font-family: "Colina_Rounded";
+  font-style: normal;
+  font-size: 58.4903px;
+  line-height: 112.6%;
+  text-align: center;
+  color: #ffffff;
+}
+.subTitleTextStyle {
+  font-family: "Barlow-Thin";
+  font-style: normal;
+  font-size: 26.3704px;
+  line-height: 145%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.optionTextStyle {
+  font-family: "Barlow-Bold";
+  font-style: normal;
+  font-size: 26.3704px;
+  line-height: 145%;
+  text-align: center;
+  color: #ffffff;
+}
