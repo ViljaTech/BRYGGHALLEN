@@ -4,39 +4,7 @@ import downArrow from "../../assets/images/downArrow.svg";
 import upArrow from "../../assets/images/upArrow.svg";
 import downArrow1 from "../../assets/images/downArrow1.png";
 import upArrow1 from "../../assets/images/upArrow1.png";
-const Categories = (props) => {
-  const Details = [
-    {
-      name: "PHILLY CHEESESTEAK",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-    {
-      name: "HETA RÄKOR",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-    {
-      name: "GRILLED CHICKEN TACOS",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-    {
-      name: "FILIPINO BBQ PORK SKEWERS",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-    {
-      name: "PINSA",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-    {
-      name: "PANINI",
-      currency: "120 KR",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-    },
-  ];
+const Categories = props => {
   return (
     <div
       id={props.Data.key}
@@ -63,9 +31,9 @@ const Categories = (props) => {
       {props.Data.name === "MENY" ? (
         <div
           className={
-            props.activeIndex === props.Data.id
-              ? styles.detailsContainerStyle
-              : styles.detailsContainerStyle2
+            !(props.activeIndex === props.Data.id)
+              ? styles.animateDivStyle
+              : styles.animateOpenDivStyle
           }
         >
           <div className={styles.detailsSubContainerStyle}>
