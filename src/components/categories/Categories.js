@@ -1,10 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import downArrow from "../../assets/images/downArrow.svg";
-import upArrow from "../../assets/images/upArrow.svg";
 import downArrow1 from "../../assets/images/downArrow1.png";
-import upArrow1 from "../../assets/images/upArrow1.png";
-const Categories = props => {
+const Categories = (props) => {
   return (
     <div
       id={props.Data.key}
