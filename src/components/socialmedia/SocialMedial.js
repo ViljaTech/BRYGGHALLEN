@@ -46,8 +46,8 @@ const SocialMedial = () => {
             }}
           >
             {data.map((image, index) => (
-              <div className={styles.itemStyle}>
-                <div key={index} className={styles.imageContainerStyle}>
+              <div className={styles.itemStyle} key={index}>
+                <div className={styles.imageContainerStyle}>
                   <img src={image} className={styles.imgStyle} />
                 </div>
                 {index % 2 === 0 ? (
@@ -71,8 +71,8 @@ const SocialMedial = () => {
             }}
           >
             {data.map((image, index) => (
-              <div className={styles.itemStyle}>
-                <div key={index} className={styles.imageContainerStyle}>
+              <div className={styles.itemStyle} key={index}>
+                <div className={styles.imageContainerStyle}>
                   <img src={image} className={styles.imgStyle} />
                 </div>
                 {index % 2 === 0 ? (

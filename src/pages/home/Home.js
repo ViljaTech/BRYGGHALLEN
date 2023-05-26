@@ -103,6 +103,7 @@ const Home = () => {
       <div className={styles.categoryContainerStyle}>
         {Data.map((data, index) => (
           <Categories
+            key={index}
             Data={data}
             index={index}
             activeIndex={selectedOption}

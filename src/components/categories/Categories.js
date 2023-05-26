@@ -4,7 +4,7 @@ import downArrow from "../../assets/images/downArrow.svg";
 import upArrow from "../../assets/images/upArrow.svg";
 import downArrow1 from "../../assets/images/downArrow1.png";
 import upArrow1 from "../../assets/images/upArrow1.png";
-const Categories = (props) => {
+const Categories = props => {
   return (
     <div
       id={props.Data.key}
@@ -59,7 +59,7 @@ const Categories = (props) => {
           }
         >
           {props.Data.details.map((detaile, index) => (
-            <div>
+            <div key={index}>
               <p className={styles.detaileDescTextStyle}>{detaile.desc}</p>
             </div>
           ))}

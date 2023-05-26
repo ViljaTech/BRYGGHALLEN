@@ -33,7 +33,7 @@ const LargeBeer = () => {
         >
           en brygghall – två bryggerier i hjärtat av kullabygden
         </h2>
-        <p
+        <div
           id="reveal"
           className={[styles.descTextStyle, styles.reveal].join(" ")}
         >
@@ -44,7 +44,7 @@ const LargeBeer = () => {
           har Viken Bryggeri och Kullens Bryggeri slagit sina pålar ihop och
           skapat ett gemensamt taproom för ölentusiaster och folk som vill njuta
           av det god öl, god mat och gott snack!
-        </p>
+        </div>
       </div>
       <div className={styles.largeImgStyle}>
         <img src={largebeer} className={styles.imgStyle} />

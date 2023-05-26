@@ -33,6 +33,7 @@
   height: 100%;
   object-fit: contain;
   transition: all 1s;
+  cursor: pointer;
 }
 .TitletextStyle {
   font-family: "Colina_Rounded";
@@ -189,7 +190,7 @@
   transform: rotate(180deg);
   transition: all 1s;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   .mainContainerStyle {
     height: auto;
   }
