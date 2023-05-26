@@ -48,6 +48,18 @@
   src: url("../src/assets/fonts/Barlow-Thin.ttf");
   font-weight: 200;
 }
+@font-face {
+  font-family: "InterTight";
+  src: url("./assets/fonts/InterTight.ttf");
+}
+@font-face {
+  font-family: "FSKIM";
+  src: url("./assets/fonts/FSKim-Black.woff2");
+}
+@font-face {
+  font-family: "FwrK";
+  src: url("./assets/fonts/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2");
+}
 * {
   margin: 0;
   padding: 0;

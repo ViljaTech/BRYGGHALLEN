@@ -6,7 +6,7 @@
       rgba(33, 21, 21, 0.8) 11%,
       rgba(33, 21, 21, 0) 16%
     ),
-    linear-gradient(to top, #060606 0%, rgba(33, 21, 21, 0) 33%),
+    linear-gradient(to top, #060606 24%, rgba(33, 21, 21, 0) 40%),
     url("../../assets/images/mainBg.svg");
   background-position: top;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@
   flex-direction: column;
   width: 412px;
   margin: auto;
-  animation: animation 1s;
+  animation: animation 3s;
 }
 @keyframes animation {
   0% {
@@ -113,6 +113,22 @@
   height: 56px;
   border: 2.1537px solid #ffffff;
   border-radius: 16px;
+}
+@media screen and (max-width: 1080px) {
+  .mainContainerStyle {
+    background: linear-gradient(
+        to bottom,
+        rgba(33, 21, 21, 0.8) 12%,
+        rgba(33, 21, 21, 0) 18%
+      ),
+      linear-gradient(to top, #060606 30%, rgba(33, 21, 21, 0) 60%),
+      url("../../assets/images/mainBg.svg");
+
+    gap: 138px;
+  }
+  .mainContainerTopStyle {
+    gap: 86px;
+  }
 }
 @media screen and (max-width: 834px) {
   .mainContainerStyle {
