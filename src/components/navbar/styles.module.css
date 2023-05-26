@@ -80,6 +80,21 @@
   height: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1080px) {
+  .leftContainerStyle {
+    width: 152px;
+  }
+  .bottomTextStyle {
+    font-size: 37.7844px;
+  }
+  .rightContainerStyle {
+    gap: 28px;
+  }
+  .optionsTextStyle {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 834px) {
   .mainContainerStyle {
     gap: 0px;

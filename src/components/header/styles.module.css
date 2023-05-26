@@ -73,6 +73,8 @@
   align-items: center;
   gap: 54px;
   animation: animation 1s;
+  max-width: 1440px;
+  margin: auto;
 }
 .eachContainerStyle {
   display: flex;
@@ -128,6 +130,12 @@
   }
   .mainContainerTopStyle {
     gap: 86px;
+  }
+  .middleContainerTextStyle {
+    width: auto;
+  }
+  .middleContainerBottomTextStyle {
+    font-size: 96.167px;
   }
 }
 @media screen and (max-width: 834px) {

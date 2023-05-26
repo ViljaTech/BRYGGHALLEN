@@ -81,7 +81,7 @@ const Home = () => {
     },
   ];
 
-  const handleIndex = (id) => {
+  const handleIndex = id => {
     if (selectedOption === id) {
       setSelectedOption(0);
     } else {
@@ -100,14 +100,16 @@ const Home = () => {
     <div className={styles.mainContainerStyle}>
       <Header />
       <LargeBeer />
-      {Data.map((data, index) => (
-        <Categories
-          Data={data}
-          index={index}
-          activeIndex={selectedOption}
-          OnClick={() => handleIndex(data.id)}
-        />
-      ))}
+      <div className={styles.categoryContainerStyle}>
+        {Data.map((data, index) => (
+          <Categories
+            Data={data}
+            index={index}
+            activeIndex={selectedOption}
+            OnClick={() => handleIndex(data.id)}
+          />
+        ))}
+      </div>
       <Oppetider />
       <SocialMedial />
       {renderMapView()}

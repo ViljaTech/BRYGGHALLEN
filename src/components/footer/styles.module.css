@@ -116,6 +116,18 @@
   width: 40px;
   height: 40px;
 }
+@media screen and (min-width: 1440px) {
+  .mainContainerStyle {
+    padding: 70px 90px;
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .mainContainerStyle {
+    padding: 68px 146px;
+  }
+}
 
 @media screen and (max-width: 1080px) {
   .mainContainerStyle {
@@ -175,7 +187,6 @@
     font-size: 54.9022px;
   }
 }
-
 @media screen and (max-width: 485px) {
   .mainContainerStyle {
     padding: 0px;

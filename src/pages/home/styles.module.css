@@ -11,3 +11,23 @@
   height: 100%;
   object-fit: contain;
 }
+.categoryContainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media screen and (max-width: 1080px) {
+  .categoryContainerStyle {
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 867px) {
+  .categoryContainerStyle {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .categoryContainerStyle {
+    gap: 8px;
+  }
+}
