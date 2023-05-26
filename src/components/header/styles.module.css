@@ -116,6 +116,14 @@
   border: 2.1537px solid #ffffff;
   border-radius: 16px;
 }
+@media screen and (min-width: 1441px) {
+  .mainContainerStyle {
+    gap: 600px;
+  }
+  .mainContainerTopStyle {
+    gap: 250px;
+  }
+}
 @media screen and (max-width: 1080px) {
   .mainContainerStyle {
     background: linear-gradient(

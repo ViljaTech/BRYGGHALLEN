@@ -95,7 +95,7 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 867px) {
   .mainContainerStyle {
     gap: 0px;
     justify-content: space-between;
@@ -116,7 +116,7 @@
     font-size: 26.3383px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 485px) {
   .leftContainerStyle {
     width: 51px;
   }

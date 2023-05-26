@@ -4,7 +4,7 @@ import downArrow from "../../assets/images/downArrow.svg";
 import upArrow from "../../assets/images/upArrow.svg";
 import downArrow1 from "../../assets/images/downArrow1.png";
 import upArrow1 from "../../assets/images/upArrow1.png";
-const Categories = props => {
+const Categories = (props) => {
   return (
     <div
       id={props.Data.key}
@@ -21,10 +21,8 @@ const Categories = props => {
             onClick={() => props.OnClick()}
             className={styles.imgContainerStyle}
           >
-            <img
-              src={props.activeIndex === props.Data.id ? upArrow1 : downArrow1}
-              className={styles.imgStyle}
-            />
+            {/* props.activeIndex === props.Data.id ? upArrow1 : */}
+            <img src={downArrow1} className={styles.imgStyle} />
           </div>
         </div>
       </div>

@@ -138,7 +138,7 @@
     width: 400px;
   }
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 867px) {
   .mainContainerStyle {
     padding: 63px 50px 63px 50px;
   }

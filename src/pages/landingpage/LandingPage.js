@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import landingImage from "../../assets/images/landingImage.jpg";
-import beerIcon from "../../assets/images/beerIcon.jpg";
+import landingImage from "../../assets/images/landingImage3.jpg";
+import beerIcon from "../../assets/images/logoW.png";
 import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (

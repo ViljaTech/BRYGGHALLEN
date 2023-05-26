@@ -34,3 +34,11 @@
   text-align: center;
   color: #ffffff;
 }
+@media screen and (max-width: 485px) {
+  .subTitleTextStyle {
+    font-size: 20px;
+  }
+  .optionTextStyle {
+    font-size: 20px;
+  }
+}

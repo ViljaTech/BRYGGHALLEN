@@ -1,30 +1,40 @@
 .containerStyle {
-  /* max-width: 1440px; */
-  width: 100%;
-  margin: auto;
-  overflow-x: hidden;
-  padding: 70px 0px;
-}
-.mainContainerStyle {
   display: flex;
-  flex-direction: row;
-  width: calc(369px * 9 - 100%);
-  animation: scroll 15s linear infinite;
+  width: 100%;
+  height: 345px;
+  padding: 26px 0px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  overflow: hidden;
+}
+.wrapper {
+  position: absolute;
+  display: flex;
+}
+
+.section {
+  display: flex;
+  animation: swipe 20s linear infinite var(--reverse) forwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
 }
 .itemStyle {
   display: flex;
   flex-direction: row;
-}
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
 .imageContainerStyle {
   min-width: 255px;

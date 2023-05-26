@@ -37,13 +37,13 @@ const LargeBeer = () => {
           id="reveal"
           className={[styles.descTextStyle, styles.reveal].join(" ")}
         >
-          <span className={styles.topDescTextStyle}>
+          <p className={styles.topDescTextStyle}>
             Varmt välkommen till Brygghallen – en annan del av Höganäs
-          </span>
-          &nbsp; Brygghallen i Höganäs är en unik destination för alla
-          ölälskare. Här har Viken Bryggeri och Kullens Bryggeri slagit sina
-          pålar ihop och skapat ett gemensamt taproom för ölentusiaster och folk
-          som vill njuta av det god öl, god mat och gott snack!
+          </p>
+          Brygghallen i Höganäs är en unik destination för alla ölälskare. Här
+          har Viken Bryggeri och Kullens Bryggeri slagit sina pålar ihop och
+          skapat ett gemensamt taproom för ölentusiaster och folk som vill njuta
+          av det god öl, god mat och gott snack!
         </p>
       </div>
       <div className={styles.largeImgStyle}>
