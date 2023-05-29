@@ -3,7 +3,9 @@ import styles from "./styles.module.css";
 import largebeer from "../../assets/images/largeBeer1.svg";
 import beers from "../../assets/images/beersnew.png";
 import video from "../../assets/videos/Untitled-2-2-2-2.mp4";
+import { Link, useNavigate } from "react-router-dom";
 const LargeBeer = () => {
+  const navigation = useNavigate();
   const reveal = () => {
     var reveals = document.querySelectorAll("#reveal");
 
@@ -47,7 +49,13 @@ const LargeBeer = () => {
           av det god öl, god mat och gott snack!
         </div>
       </div>
-      <div className={styles.largeImgStyle}>
+      <Link
+        to={
+          "https://www.youtube.com/watch?v=QmZy1GWrTtk&feature=em-share_video_user"
+        }
+        target="_blank"
+        className={styles.largeImgStyle}
+      >
         {/* <img src={largebeer} className={styles.imgStyle} /> */}
         <video
           className={styles.largeBeerVideoStyle}
@@ -60,7 +68,7 @@ const LargeBeer = () => {
         >
           <source src={video} type="video/mp4"></source>
         </video>
-      </div>
+      </Link>
       {/* <div className={styles.contentStyle}>
         <div className={styles.imgContainerStyle}>
           <img src={beers} className={styles.imgStyle} />

@@ -23,14 +23,7 @@ const Navbar = () => {
         <a href="#BOKAVISNING" className={styles.optionsTextStyle}>
           BOKA DITT BESÖK
         </a>
-        <a
-          onClick={() => {
-            document
-              .getElementById("BOKAPRIVATAFESTER")
-              .scrollIntoView({ behavior: "smooth" });
-          }}
-          className={styles.optionsTextStyle}
-        >
+        <a href="#BOKAPRIVATAFESTER" className={styles.optionsTextStyle}>
           BOKA DIN FEST
         </a>
         <a href="#ÖPPETIDER" className={styles.optionsTextStyle}>

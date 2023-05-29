@@ -6,6 +6,7 @@ import call from "../../assets/images/call.svg";
 import beers from "../../assets/images/beersnew1.svg";
 import facebook from "../../assets/images/facebook.svg";
 import instagram from "../../assets/images/instagram.svg";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const renderLeftContainer = () => {
     return (
@@ -58,12 +59,20 @@ const Footer = () => {
       <div className={styles.rightContainerStyle}>
         <p className={styles.rightContainerTextStyle}>följ oss</p>
         <div className={styles.socilaMediaContainerStyle}>
-          <div className={styles.socilaMediaIconStyle}>
+          <Link
+            to={"https://www.facebook.com/brygghallens/"}
+            target="_blank"
+            className={styles.socilaMediaIconStyle}
+          >
             <img src={facebook} className={styles.imgStyle} />
-          </div>
-          <div className={styles.socilaMediaIconStyle}>
+          </Link>
+          <Link
+            to={"https://www.instagram.com/brygghallen/?hl=en/"}
+            target="_blank"
+            className={styles.socilaMediaIconStyle}
+          >
             <img src={instagram} className={styles.imgStyle} />
-          </div>
+          </Link>
         </div>
       </div>
     );

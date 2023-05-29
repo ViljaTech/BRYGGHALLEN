@@ -3,10 +3,10 @@ import styles from "./styles.module.css";
 import Header from "../../components/header/Header";
 import LargeBeer from "../../components/largeBeer/LargeBeer";
 import Categories from "../../components/categories/Categories";
-import MENY from "../../assets/images/meny.svg";
-import KOMMANDEEVENTS from "../../assets/images/KOMMANDEEVENTS.svg";
-import BOKAVISNING from "../../assets/images/BOKAVISNING.svg";
-import BOKAPRIVATAFESTER from "../../assets/images/BOKAPRIVATAFESTER.svg";
+import MENY from "../../assets/images/meny.jpg";
+import KOMMANDEEVENTS from "../../assets/images/events.jpg";
+import BOKAVISNING from "../../assets/images/bokavisning.jpg";
+import BOKAPRIVATAFESTER from "../../assets/images/privatafester.jpg";
 import Oppetider from "../../components/oppetider/Oppetider";
 import Footer from "../../components/footer/Footer";
 import SocialMedial from "../../components/socialmedia/SocialMedial";
@@ -81,7 +81,7 @@ const Home = () => {
     },
   ];
 
-  const handleIndex = id => {
+  const handleIndex = (id) => {
     if (selectedOption === id) {
       setSelectedOption(0);
     } else {
@@ -91,7 +91,7 @@ const Home = () => {
 
   const renderMapView = () => {
     return (
-      <div className={styles.mapContainerSTyle}>
+      <div className={styles.mapContainerStyle}>
         <img src={map} className={styles.mapImgStyles} />
       </div>
     );

@@ -9,7 +9,7 @@
 .mapImgStyles {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .categoryContainerStyle {
   display: flex;
@@ -25,9 +25,15 @@
   .categoryContainerStyle {
     gap: 10px;
   }
+  .mapContainerStyle {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 485px) {
   .categoryContainerStyle {
     gap: 8px;
+  }
+  .mapContainerStyle {
+    height: 195px;
   }
 }
