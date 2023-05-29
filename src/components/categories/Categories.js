@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import downArrow1 from "../../assets/images/downArrow1.png";
-const Categories = (props) => {
+const Categories = props => {
   return (
     <div
       id={props.Data.key}
@@ -56,7 +56,7 @@ const Categories = (props) => {
           }
         >
           {props.Data.details.map((detaile, index) => (
-            <div key={index}>
+            <div key={index} className={styles.detaileDescTextBlockStyle}>
               <p className={styles.detaileDescTextStyle}>{detaile.desc}</p>
             </div>
           ))}

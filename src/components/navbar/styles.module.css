@@ -80,7 +80,28 @@
   height: 100%;
   object-fit: contain;
 }
-
+.togggleMenuContainerStyles {
+  position: absolute;
+  right: 28px;
+  top: 28px;
+  background: var(--bgLight);
+  border: 1px solid var(--borderLight);
+  box-shadow: 0px 48px 96px rgba(30, 30, 32, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  background-color: rgb(0, 0, 0);
+}
+.menuLinkStyles {
+  font-family: "Barlow-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: var(--textDark);
+  text-align: start;
+  cursor: pointer;
+  color: #ffffff;
+}
 @media screen and (max-width: 1080px) {
   .leftContainerStyle {
     width: 152px;
