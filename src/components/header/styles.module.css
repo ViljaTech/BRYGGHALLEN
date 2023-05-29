@@ -7,7 +7,7 @@
       rgba(33, 21, 21, 0) 16%
     ),
     linear-gradient(to top, #060606 24%, rgba(33, 21, 21, 0) 40%),
-    url("../../assets/images/mainBg.svg");
+    url("../../assets/images/mainBg.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;

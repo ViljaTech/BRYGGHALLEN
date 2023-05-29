@@ -69,23 +69,6 @@ const LargeBeer = () => {
           <source src={video} type="video/mp4"></source>
         </video>
       </Link>
-      {/* <div className={styles.contentStyle}>
-        <div className={styles.imgContainerStyle}>
-          <img src={beers} className={styles.imgStyle} />
-        </div>
-        <h2 className={styles.titleTextStyle}>
-          en brygghall – två bryggerier i hjärtat av kullabygden
-        </h2>
-        <p className={styles.descTextStyle}>
-          <span className={styles.topDescTextStyle}>
-            Varmt välkommen till Brygghallen – en annan del av Höganäs
-          </span>
-          &nbsp; Brygghallen i Höganäs är en unik destination för alla
-          ölälskare. Här har Viken Bryggeri och Kullens Bryggeri slagit sina
-          pålar ihop och skapat ett gemensamt taproom för ölentusiaster och folk
-          som vill njuta av det god öl, god mat och gott snack!
-        </p>
-      </div> */}
     </div>
   );
 };
