@@ -56,6 +56,10 @@
 .largeImgStyle {
   flex: 50%;
 }
+.largeBeerVideoStyle {
+  height: 100%;
+  width: 100%;
+}
 @media screen and (min-width: 1441px) {
   .mainContainerStyle {
     max-width: 1440px;

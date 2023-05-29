@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import largebeer from "../../assets/images/largeBeer1.svg";
 import beers from "../../assets/images/beersnew.png";
+import video from "../../assets/videos/Untitled-2-2-2-2.mp4";
 const LargeBeer = () => {
   const reveal = () => {
     var reveals = document.querySelectorAll("#reveal");
@@ -47,7 +48,18 @@ const LargeBeer = () => {
         </div>
       </div>
       <div className={styles.largeImgStyle}>
-        <img src={largebeer} className={styles.imgStyle} />
+        {/* <img src={largebeer} className={styles.imgStyle} /> */}
+        <video
+          className={styles.largeBeerVideoStyle}
+          loop={2}
+          play
+          muted
+          playsInline
+          autoPlay={true}
+          controls={false}
+        >
+          <source src={video} type="video/mp4"></source>
+        </video>
       </div>
       {/* <div className={styles.contentStyle}>
         <div className={styles.imgContainerStyle}>
