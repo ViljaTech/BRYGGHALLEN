@@ -11,6 +11,7 @@ import Oppetider from "../../components/oppetider/Oppetider";
 import Footer from "../../components/footer/Footer";
 import SocialMedial from "../../components/socialmedia/SocialMedial";
 import map from "../../assets/images/map.png";
+import { Link } from "react-router-dom";
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState(0);
   const ManyDetails = [
@@ -91,9 +92,13 @@ const Home = () => {
 
   const renderMapView = () => {
     return (
-      <div className={styles.mapContainerStyle}>
+      <Link
+        to={"https://goo.gl/maps/TPAiufATvtVJ9r6d9"}
+        target="_blank"
+        className={styles.mapContainerStyle}
+      >
         <img src={map} className={styles.mapImgStyles} />
-      </div>
+      </Link>
     );
   };
   return (
